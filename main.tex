@@ -216,7 +216,7 @@
 {
 \colorbox{bgcol}{\makebox[1\linewidth][l]{
 	\larrow{sectcol} \hspace{-8pt} \larrow{sectcol} \hspace{-8pt} \larrow{sectcol} \textcolor{white}{\textbf{#1}}\hspace{4pt}
-}}\\
+}}
 }
 
 %create a coloured arrow with title as cv meta section section
@@ -266,13 +266,12 @@
 }
 
 \newcommand{\cvaward}[3] {
+%\begin{flushleft}
 \textcolor{sectcol}{#2 - #3}
-\begin{flushleft}
 \begin{tabular*}{1\linewidth}{p{0.001\linewidth} p{0.9\linewidth}}
 	\larrow{bgcol} & #1\\[2pt]
 \end{tabular*}
-\end{flushleft}
-%\textcolor{softcol}{\hrule}
+%\end{flushleft}
 }
 %----------------------------------------------------------------------------------------
 % CUSTOM STRUT FOR EMPTY BOXES
@@ -363,8 +362,7 @@ I am a committed and hardworking person with strong programming skills. I am eag
 %--------------------------------------------------------------------------------------
 
 \cvsection{Education}
-
-\cvevent{2018 / 03}{Mechatronics Engineering Bachelor's}{Universidad de Guadalajara - Lagos de Moreno, Jal.}{Beneficiary during 4 years of the Program of Economic Stimulus to Outstanding Students in the modality of Human Resources Training in the Information Systems Area.}{GPA: 3.85   Final grade: 95.23}
+\cvevent{2012 – 2017}{Mechatronics Engineering Bachelor's}{Universidad de Guadalajara - Lagos de Moreno, Jal.}{Beneficiary during 4 years of the Program of Economic Stimulus to Outstanding Students in the modality of Human Resources Training in the Information Systems Area.}{GPA: 3.85   Final grade: 95.23}
 
 %\textcolor{softcol}{\hrule}
 
@@ -375,17 +373,13 @@ I am a committed and hardworking person with strong programming skills. I am eag
 
 %
 \cvevent{Fall 2016}{Intensive English Program}{University of Arizona - Tucson, AZ}{Inter-cultural classes in English, covering special topics in professional essay writing}{SEP-SRE PROYECTA 10,000 Student Training Program; scholarship granted by the Mexican Agency for International Development Cooperation}
-
 %\textcolor{softcol}{\hrule}
-\cvsection{Strengths}
-\newline
-\cvtag{Learner} 
-\cvtag{Analytical}
-\cvtag{Achiever}
-\newline
-\cvtag{Restorative}
-\cvtag{Ideation}
-\cvtag{Proactive}
+\cvsection{Honors and Awards}
+\begin{flushleft}
+\cvaward{Recognition for Academic Excellence provided by Universidad de Guadalajara}{CRES 55th edition}{2018}
+\\
+\cvaward{As a part of the First place, Finalist and Participant team during the Hult Prize Challenge, in the University phase, National, and Boston Regional Finals, respectively.}{8th Annual Hult Prize Challenge}{2016}
+\end{flushleft}
 
 \end{minipage}
 \hfill
@@ -399,18 +393,35 @@ I am a committed and hardworking person with strong programming skills. I am eag
 \cvsection{Experience}
 
 %
-\cvevent{2018/01}{Software Engineer}{Continental}{}
-
+\cvevent{2018 - Present}{Software Engineer}{Continental}{Functional Responsible of the HMI (Graphics) functionality,}{Software developer of embedded systems for the automotive industry}
 %
-\cvevent{2014 - 2016}{COO and Developer)}{Startup named RIGHTZ, (renamed AlanAI after)}{Develop a chatbot used by the IJAMI, main purpose of this chatbot was to support the immigrants with basic doubts and broadcast of important news}{As part of the team that founded the startup Rightz, the work carried out has been research of AI tools for development, creation of SCRUM boards, pitch presentations, etc.}
+\cvevent{2014 - 2019}{COO and Developer)}{Startup named RIGHTZ/AlanAI}{Develop a chatbot used by the IJAMI, main purpose of this chatbot was to support the immigrants with basic doubts and broadcast of important news}{As part of the team that founded the startup Rightz, the work carried out has been research of AI tools for development, creation of SCRUM boards, pitch presentations, etc.}
 
 %
 \cvevent{2016 - 2017}{Research Assistant as a part of the program PRO-SNI}{Universidad de Guadalajara}{Generation of Simulink models for complex networks of chaotic oscillators, based on mathematical models}{Data generation from mathematic models of chaotic systems in Matlab}
 
+\cvsection{Skills}
+\begin{flushleft}
+%\justify
+\cvtag{C} 
+\cvtag{C++}
+\cvtag{Python}
+\cvtag{Git}
+\cvtag{Matlab}
+\cvtag{Jupiter}
+\cvtag{Pandas}
+\end{flushleft}
 
-\cvsection{Honors and Awards}
-\cvaward{Recognition for Academic Excellence provided by Universidad de Guadalajara}{CRES 55th edition}{2018}
-\cvaward{As a part of the First place, Finalist and Participant team during the Hult Prize Challenge, in the University phase, National, and Boston Regional Finals, respectively.}{8th Annual Hult Prize Challenge}{2016}
+
+\cvsection{Strengths}
+\begin{flushleft}
+\cvtag{Learner} 
+\cvtag{Analytical}
+\cvtag{Achiever}
+\\
+\cvtag{Restorative}
+\cvtag{Ideation}
+\end{flushleft}
 
 
 \end{minipage}
